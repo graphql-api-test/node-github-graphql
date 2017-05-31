@@ -117,7 +117,7 @@ Type: object
 
 Dynamic arguments to be passed inside the query string. See http://graphql.org/learn/queries/#variables
 
-**- callback**
+**- callback (optional)**
 
 Type: function (string response, string error)
 
