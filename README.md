@@ -88,7 +88,7 @@ fragment handleCommits on Commit {
 
 #### new GithubGraphQLApi(options) ####
 
-**options**
+**- options**
 
 Type: objects
 
@@ -105,19 +105,19 @@ The accepted keys are as below:
 
 #### github.request(query, variables, callback) ####
 
-**query**
+**- query**
 
 Type: string
 
 GraphQL query
 
-**variables (optional)**
+**- variables (optional)**
 
 Type: object
 
 Dynamic arguments to be passed inside the query string. See http://graphql.org/learn/queries/#variables
 
-**callback**
+**- callback**
 
 Type: function (string response, string error)
 
